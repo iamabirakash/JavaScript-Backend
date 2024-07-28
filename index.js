@@ -1,6 +1,8 @@
 require('dotenv').config()
-const express = require('express')
-const app = express()
+const express = require('express') // => Common JS
+// import express from 'express'; // => Module JS
+// TO USE THIS WE HAVE TO ADD "type": "module" into package.json
+const app = express();
 // const port = 3000
 
 app.get("/",(req,res) => { //REQ RES Callback
