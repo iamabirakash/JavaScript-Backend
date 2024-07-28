@@ -8,7 +8,7 @@ const port = 3000
 app.get("/",(req,res) => { //REQ RES Callback
     res.send("Hello World");
 })
-app.get("/jokes",(req,res) => {
+app.get("/api/jokes",(req,res) => {
     const jokes = [
         {
             id: 1,
